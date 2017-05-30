@@ -2,13 +2,13 @@
 
 ### tl;dr
 
-Duck typing is (often) a feature of dynamically-typed languages. In short, duck typing is concerned with which methods an object responds to and not to which class an object necessarily belongs.
+Duck typing is (often) a feature of dynamically-typed languages. In short, duck typing is concerned with which methods an object will respond to, and not necessarily the class to which it belongs.
 
-If an object has *duck-like methods*, Ruby will treat it like a duck, even if it wasn't constructed inside a "duck" class.
+That is, if an object has *duck-like methods*, Ruby will treat it like a duck, even if it wasn't constructed inside of a "duck" class.
 
 ### An Example
 
-First, we begin by creating a Duck class. Of course, ducks can speak (or Quack!) and are celebrated swimmers, so we should be sure to included these methods within the class.
+First, we begin by creating a Duck class. Of course, ducks can speak (or quack) and are celebrated swimmers, so we should be sure to included these methods within the class.
 
 ```ruby
 class Duck
@@ -24,7 +24,7 @@ end
 
 ![Duck Pizza GIF](http://cdn.jsears.co/duck_pizza.gif)
 
-Now, for the sake of demonstrating the phenomenon of duck typing, we will create an Imposter class. Note how the Imposter Class shares similar methods to the Duck class we created above ("speak" and "swim").
+For the sake of demonstrating the phenomenon of duck typing, we will create an Imposter class. Note how the Imposter Class shares similar methods to the Duck class we created above ("speak" and "swim").
 
 ```ruby
 class Imposter
@@ -38,14 +38,14 @@ class Imposter
 end
 ```
 
-We can create an instance of each class with an appropriate name...
+Now we can create an instance of each class with an appropriate name...
 
 ```ruby
 mallard = Duck.new
 donald = Imposter.new
 ```
 
-And write a few methods that take in duck or *duck-like* objects as parameters and call the shared "speak" and "swim" methods (and provide some additional information about which method and class were involved in each call).
+And then write a few methods that take in duck or *duck-like* objects as parameters and call the shared "speak" and "swim" methods (and also provide some additional information about which method and class were involved in each call with the ".class.name" and "__method__" methods).
 
 ```ruby
 def ducks_go_quack duck
@@ -67,7 +67,7 @@ ducks_can_swim mallard
 ducks_can_swim donald
 ```
 
-And witness the results.
+And witness the results. Even though "Duck" and "Imposter" are different classes, we are able to successfully pass them as arguments to the "ducks_go_quack" and "ducks_can_swim" methods because both the "Duck" and "Imposter" classes have "speak" and "swim" methods.
 
 ```
 Duck says: Quack!
