@@ -54,3 +54,19 @@ ducks_go_quack donald
 ducks_can_swim mallard
 ducks_can_swim donald
 ```
+
+
+
+```ruby
+Duck says: Quack!
+ (via ducks_go_quack method)
+
+Imposter says: Believe me, I'm the best quacker in the world!
+ (via ducks_go_quack method)
+
+Duck says: I'm a great swimmer.
+ (via ducks_can_swim method)
+
+Imposter says: I pay people to swim for me...
+ (via ducks_can_swim method)
+```
