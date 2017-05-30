@@ -12,7 +12,7 @@ class Duck
 end
 ```
 
-
+![Duck Pizza GIF](http://cdn.jsears.co/duck_pizza.gif)
 
 ```ruby
 class Imposter
@@ -72,3 +72,5 @@ Imposter says: I pay people to swim for me...
 ```
 
 > If it looks like a duck, swims like a duck, and quacks like a duck, then it's probably a duck.
+
+![Duck Running GIF](http://cdn.jsears.co/duck_running.gif)
