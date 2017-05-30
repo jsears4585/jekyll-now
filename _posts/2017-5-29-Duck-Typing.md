@@ -85,7 +85,7 @@ Imposter says: I pay people to swim for me...
 
 For an discussion on how to leverage duck typing in a practical example, I recommend that you check out Jarrod Rotolo's awesome article [Duck, Duck, Ruby: Duck Typing in Ruby](http://revelry.co/duck-typing-with-ruby/ "Duck, Duck, Ruby: Duck Typing in Ruby").
 
-When in doubt, remember the old saying that gave "duck typing" its name:
+When in doubt, remember the saying that gave "duck typing" its name:
 
 > If it looks like a duck, swims like a duck, and quacks like a duck, then it's probably a duck.
 
