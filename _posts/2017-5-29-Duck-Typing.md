@@ -70,3 +70,5 @@ Duck says: I'm a great swimmer. Splash splash splash!
 Imposter says: I pay people to swim for me...
  (via ducks_can_swim method)
 ```
+
+> If it looks like a duck, swims like a duck, and quacks like a duck, then it's probably a duck.
