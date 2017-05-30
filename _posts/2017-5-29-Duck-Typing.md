@@ -83,7 +83,7 @@ Imposter says: I pay people to swim for me...
  (via ducks_can_swim method)
 ```
 
-For an discussion on how to leverage duck typing in a practical example, I recommend that you check out Jarrod Rotolo's awesome article [Duck, Duck, Ruby: Duck Typing in Ruby](http://revelry.co/duck-typing-with-ruby/ "Duck, Duck, Ruby: Duck Typing in Ruby").
+For a discussion on how to leverage duck typing in a practical situation, I recommend that you check out Jarrod Rotolo's awesome article [Duck, Duck, Ruby: Duck Typing in Ruby](http://revelry.co/duck-typing-with-ruby/ "Duck, Duck, Ruby: Duck Typing in Ruby").
 
 When in doubt, remember the saying that gave "duck typing" its name:
 
