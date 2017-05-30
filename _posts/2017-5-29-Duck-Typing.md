@@ -2,7 +2,7 @@
 
 ### tl;dr
 
-Duck typing is (often) a feature of dynamically-typed languages. In short, duck typing is concerned with which methods an object will respond to, and not necessarily the class to which it belongs.
+Duck typing is (often) a feature of dynamically-typed languages. In short, duck typing is a design concerned with which methods an object will respond to, and not necessarily the class to which an object belongs.
 
 That is, if an object has *duck-like methods*, Ruby will treat it like a duck, even if it wasn't constructed inside of a "duck" class.
 
@@ -67,7 +67,9 @@ ducks_can_swim mallard
 ducks_can_swim donald
 ```
 
-And witness the results. Even though "Duck" and "Imposter" are different classes, we are able to successfully pass them as arguments to the "ducks_go_quack" and "ducks_can_swim" methods because both the "Duck" and "Imposter" classes have "speak" and "swim" methods.
+And witness the results. Even though "Duck" and "Imposter" are different classes, we are able to successfully pass them as arguments to the "ducks_go_quack" and "ducks_can_swim" methods because both the "Duck" and "Imposter" classes have "speak" and "swim" methods. 
+
+It's worth mentioning that statically-typed languages like Java, C, or C++ generally do not allow for or encourage duck typing.
 
 ```
 Duck says: Quack!
