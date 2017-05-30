@@ -6,6 +6,10 @@ Duck typing is (often) a feature of dynamically-typed languages. In short, duck 
 
 If an object has *duck-like methods*, Ruby will treat it like a duck, even if it wasn't constructed inside a "duck" class.
 
+### An Example
+
+First, we begin by creating a Duck class. Of course, ducks can speak (or Quack!) and are celebrated swimmers, so we should be sure to included these methods within the class.
+
 ```ruby
 class Duck
   def speak
@@ -19,6 +23,8 @@ end
 ```
 
 ![Duck Pizza GIF](http://cdn.jsears.co/duck_pizza.gif)
+
+Now, for the sake of demonstrating the phenomenon of duck typing, we will create an Imposter class. While this class is not a Duck class, note how it shares similar methods to the Duck class we created above.
 
 ```ruby
 class Imposter
