@@ -1,4 +1,4 @@
-# Duck Typing, What Is It?
+## What Is It?
 
 ```ruby
 class Duck
