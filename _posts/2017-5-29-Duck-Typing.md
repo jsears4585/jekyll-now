@@ -24,7 +24,7 @@ end
 
 ![Duck Pizza GIF](http://cdn.jsears.co/duck_pizza.gif)
 
-Now, for the sake of demonstrating the phenomenon of duck typing, we will create an Imposter class. While this class is not a Duck class, note how it shares similar methods to the Duck class we created above.
+Now, for the sake of demonstrating the phenomenon of duck typing, we will create an Imposter class. While this class is not a Duck class, note how it shares similar methods to the Duck class we created above—an Imposter can also both speak and swim, but with different results.
 
 ```ruby
 class Imposter
@@ -38,14 +38,14 @@ class Imposter
 end
 ```
 
-
+We can create an instance of each class with an appropriate name...
 
 ```ruby
 mallard = Duck.new
 donald = Imposter.new
 ```
 
-
+And write a few methods that take in duck (or duck-like) objects as parameters and call the shared "speak" and "swim" methods (and provide some additional information about which method and class were involved in each call).
 
 ```ruby
 def ducks_go_quack duck
@@ -57,7 +57,7 @@ def ducks_can_swim duck
 end
 ```
 
-
+Now, we can make calls to our new methods with either of our new *duck-like* objects...
 
 ```
 ducks_go_quack mallard
@@ -67,7 +67,7 @@ ducks_can_swim mallard
 ducks_can_swim donald
 ```
 
-
+And witness the results.
 
 ```
 Duck says: Quack!
