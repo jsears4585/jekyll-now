@@ -1,5 +1,11 @@
 ## What Is It?
 
+### tl;dr
+
+Duck typing is (often) a feature of dynamically-typed languages. In short, duck typing is concerned with which methods an object responds to, and not with which class it belongs.
+
+If an object has *duck-like methods*, Ruby will treat it like a duck, even if it wasn't constructed inside a "duck" class.
+
 ```ruby
 class Duck
   def speak
