@@ -57,7 +57,7 @@ ducks_can_swim donald
 
 
 
-```ruby
+```
 Duck says: Quack!
  (via ducks_go_quack method)
 
