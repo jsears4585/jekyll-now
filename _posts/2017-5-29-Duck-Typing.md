@@ -24,7 +24,7 @@ end
 
 ![Duck Pizza GIF](http://cdn.jsears.co/duck_pizza.gif)
 
-Now, for the sake of demonstrating the phenomenon of duck typing, we will create an Imposter class. While this class is not a Duck class, note how it shares similar methods to the Duck class we created above—an Imposter can also both speak and swim, but with different results.
+Now, for the sake of demonstrating the phenomenon of duck typing, we will create an Imposter class. Note how the Imposter Class shares similar methods to the Duck class we created above ("speak" and "swim").
 
 ```ruby
 class Imposter
@@ -45,7 +45,7 @@ mallard = Duck.new
 donald = Imposter.new
 ```
 
-And write a few methods that take in duck (or duck-like) objects as parameters and call the shared "speak" and "swim" methods (and provide some additional information about which method and class were involved in each call).
+And write a few methods that take in duck or *duck-like* objects as parameters and call the shared "speak" and "swim" methods (and provide some additional information about which method and class were involved in each call).
 
 ```ruby
 def ducks_go_quack duck
@@ -83,7 +83,10 @@ Imposter says: I pay people to swim for me...
  (via ducks_can_swim method)
 ```
 
-When in doubt of what duck-typing means in the future, remember the age-old saying from which the term "duck-typing" originated:
+For an discussion on how to leverage duck typing in a practical example, I recommend that you check out Jarrod Rotolo's awesome article Duck, Duck, Ruby: Duck Typing in Ruby.
+[Duck, Duck, Ruby: Duck Typing in Ruby](http://revelry.co/duck-typing-with-ruby/ "Duck, Duck, Ruby: Duck Typing in Ruby")
+
+When in doubt of what duck typing means in the future, remember the age-old saying from which the term "duck-typing" originated:
 
 > If it looks like a duck, swims like a duck, and quacks like a duck, then it's probably a duck.
 
