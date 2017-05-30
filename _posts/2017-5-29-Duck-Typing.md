@@ -2,7 +2,7 @@
 
 ### tl;dr
 
-Duck typing is (often) a feature of dynamically-typed languages. In short, duck typing is concerned with which methods an object responds to, and not with which class it belongs.
+Duck typing is (often) a feature of dynamically-typed languages. In short, duck typing is concerned with which methods an object responds to and not to which class an object necessarily belongs.
 
 If an object has *duck-like methods*, Ruby will treat it like a duck, even if it wasn't constructed inside a "duck" class.
 
@@ -82,6 +82,8 @@ Duck says: I'm a great swimmer. Splash splash splash!
 Imposter says: I pay people to swim for me...
  (via ducks_can_swim method)
 ```
+
+When in doubt of what duck-typing means in the future, remember the age-old saying from which the term "duck-typing" originated:
 
 > If it looks like a duck, swims like a duck, and quacks like a duck, then it's probably a duck.
 
