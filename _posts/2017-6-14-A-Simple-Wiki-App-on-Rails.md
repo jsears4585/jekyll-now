@@ -52,7 +52,7 @@ class StatsController < ApplicationController
 end
 ```
 
-### Code Time Again
+### Code Time
 
 ```html
 <header>
@@ -79,3 +79,60 @@ end
   </tbody>
 </table>
 ```
+
+### Code Time Again
+
+```css
+table { border-collapse: collapse; border-spacing: 0; }
+
+tbody:before {
+  content: "-";
+  display: block;
+  line-height: 0.1em;
+  color: transparent;
+}
+
+th {
+  font-family: 'Merriweather';
+  font-size: 2.3vw;
+  padding: 12px 0px;
+  background-color: #0e0e75;
+  margin-bottom: 20px;
+  color: beige;
+}
+
+td {
+  font-family: 'Raleway';
+  font-size: 18px;
+}
+
+header {
+  color: #606060;
+  background: #f0f0f0 image-url("texture.png");
+  text-align: center;
+  font-family: 'Merriweather';
+}
+
+#that_guy {
+  font-size: 7vw;
+  padding-top: 13px;
+  margin: 0px;
+}
+
+#sub_head {
+  font-size: 2.3vw;
+  margin: 0px;
+  padding-bottom: 19px;
+}
+
+.word_padding {
+  padding: 2vw;
+}
+
+.golden {
+  color: #c7bc32;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+```
+
