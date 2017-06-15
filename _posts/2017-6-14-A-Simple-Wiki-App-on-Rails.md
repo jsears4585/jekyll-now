@@ -51,3 +51,31 @@ class StatsController < ApplicationController
     end
 end
 ```
+
+### Code Time Again
+
+```html
+<header>
+  <h1 id="that_guy">¯\_(ツ)_/¯</h1>
+  <h3 id="sub_head">Historical events for <%= Time.now.strftime("%B %d") %></h3>
+</header>
+
+<table cellpadding=0>
+  <thead>
+    <th>Image</th>
+    <th>Description</th>
+  </thead>
+  <tbody>
+    <% @keep.each do |event| %>
+      <tr>
+        <td>
+          <a href='https://en.wikipedia.org/?curid=<%= event["pages"].first["pageid"] %>' target='_blank'>
+            <img src='<%= event["pages"].first["thumbnail"]["source"] %>' width='200'>
+          </a>
+        </td>
+        <td class="word_padding"><span class="golden"><%= event["year"] %></span> — <%= event["text"] %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+```
