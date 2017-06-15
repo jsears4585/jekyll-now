@@ -52,6 +52,14 @@ class StatsController < ApplicationController
 end
 ```
 
+The 'onthisday' endpoint from WikiMedia (the group/movement that sustains the Wikipedia project) is suprisingly fun and powerful. When called with the appropriate header, it provides you with a string of JSON that contains a collection of data concerning historical events for a particular day of the year.
+
+By leveraging a few simple methods, we can easily adapt the API call to be dynamic. We just interpolate the month and day strings created with these methods into the API request string, and BAM, we've got the day's historical record we can now break down and feed to our views.
+
+### But Not So Fast
+
+
+
 ### Code Time (HTML/ERB)
 
 ```html
