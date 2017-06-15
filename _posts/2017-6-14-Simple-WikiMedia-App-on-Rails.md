@@ -12,3 +12,4 @@ We're not going to need much for this app, just a controller and a view. And som
 
 ### APIs and you, a love story
 
+If you aren't already familiar, *A*pplication *P*rogramming *I*nterfaces 
