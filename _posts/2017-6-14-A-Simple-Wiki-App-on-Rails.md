@@ -148,7 +148,7 @@ header {
 }
 ```
 
-What's an app without a little style? Above, we've simply spruced up the spacing and font-sizing while provide some general rules for our table to follow.
+What's an app without a little style? Above, we've simply spruced up the spacing and font-sizing while providing some general rules for our table to follow.
 
 So what does it all look like now that we're finished?
 
