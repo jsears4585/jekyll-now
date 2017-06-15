@@ -14,7 +14,7 @@ We're not going to need much for this app, just a controller and a view. And som
 
 If you aren't already familiar, **A**pplication **P**rogramming **I**nterfaces provide a great medium for obtaining cool data you want in a format you want. APIs naturally come with their own issues, but we'll discuss that later. Suffice to say, if you haven't you had the pleasure of tapping into an API, I can report that you'll be delighted by how quickly you can fly a simple application.
 
-### Code Time
+### Code Time (Ruby)
 
 ```ruby
 require 'rest-client'
@@ -52,7 +52,7 @@ class StatsController < ApplicationController
 end
 ```
 
-### Code Time
+### Code Time (HTML/ERB)
 
 ```html
 <header>
@@ -80,7 +80,7 @@ end
 </table>
 ```
 
-### Code Time Again
+### Code Time Again (CSS)
 
 ```css
 table { border-collapse: collapse; border-spacing: 0; }
