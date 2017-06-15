@@ -1,4 +1,4 @@
-## Simple Rails Tutorial
+## Getting comfortable with APIs
 
 ### Getting started
 
