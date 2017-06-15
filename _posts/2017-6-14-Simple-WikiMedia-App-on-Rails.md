@@ -12,4 +12,6 @@ We're not going to need much for this app, just a controller and a view. And som
 
 ### APIs and you, a love story
 
-If you aren't already familiar, **A**pplication **P**rogramming **I**nterfaces 
+If you aren't already familiar, **A**pplication **P**rogramming **I**nterfaces provide a great medium for obtaining cool data you want in a format you want. APIs naturally come with their own issues, but we'll discuss that later.
+
+### Here's some code
