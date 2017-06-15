@@ -2,8 +2,8 @@
 
 ### Getting started
 
-Go ahead and generate a rails application. Okay!
+Go ahead and generate a rails application.
 
-You're half way there, congrats!
+Done? Okay cool
 
 ### Now for the actual part...
