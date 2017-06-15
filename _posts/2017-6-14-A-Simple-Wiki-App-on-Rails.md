@@ -1,6 +1,6 @@
 ## Getting comfortable with APIs
 
-### Getting started
+### Setup
 
 Go ahead and generate a rails application.
 
