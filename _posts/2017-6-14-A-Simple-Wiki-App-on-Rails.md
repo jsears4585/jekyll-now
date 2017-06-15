@@ -54,7 +54,7 @@ end
 
 The 'onthisday' endpoint from WikiMedia (the group/movement that sustains the Wikipedia project) is suprisingly fun and powerful. When called with the appropriate header, it provides you with a string of JSON that contains a collection of data concerning historical events for a particular day of the year.
 
-By leveraging a few simple methods, we can easily adapt the API call to be dynamic. We just interpolate the month and day strings created with these methods into the API request string, and BAM, we've got the day's historical record we can now break down and feed to our views.
+By leveraging a few simple methods, we can easily adapt the API call to be dynamic. We just interpolate the month and day strings created with these methods into the API request string, and BAM, we've got the day's historical record we can now break down and feed to our view.
 
 ### But Not So Fast
 
@@ -89,6 +89,8 @@ In this case, occasionally, the JSON string returned from the API provides us wi
   </tbody>
 </table>
 ```
+
+Above is the extent of the HTML/ERB we'll need to dynamically create our single-page application. We create a table with headers, then simply inject an each function that iterates over each of the clean collections and pulls out the relevant bits, in this case, the thumbnail link, a link to the article, and a brief set of text describing the historical occurance. 
 
 ### Code Time Again (CSS)
 
@@ -145,5 +147,9 @@ header {
   font-size: 1.2em;
 }
 ```
+
+What's an app without a little style? Above, we've simply spruced up the spacing and font-sizing while provide some general rules for our table to follow.
+
+So what does it all look like now that we're finished?
 
 <h1><a href="http://www.historically.co/" target="_blank">Big Finish</a></h1>
