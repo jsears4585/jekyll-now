@@ -8,7 +8,7 @@ Done? Okay cool
 
 ### Now for the Actual Part
 
-We're not going to need much for this app, just a controller and a view. And some CSS. In truth, rails is way overkill for this type of application, but since we've already generated our framework with some rails magic, we can focus our efforts more squarely on calling the API, cleaning the results, and passing them to our views.
+We're not going to need much for this app, just a controller and a view. And some CSS. In truth, rails is way overkill for this type of application, but since we've already generated our framework with some rails magic, we can focus our efforts more squarely on calling the API, cleaning the results, and passing them to our view.
 
 ### Application Programming Interfaces and You, a Love Story
 
@@ -58,7 +58,9 @@ By leveraging a few simple methods, we can easily adapt the API call to be dynam
 
 ### But Not So Fast
 
+Take notice of the **#keep_ary** method we've created. While this endpoint delivers some great data, there are still errors and inconsistencies we'll have to mitigate before we can provide an instance variable for our view to render.
 
+In this case, occasionally, the JSON string returned from the API provides us with objects that don't hold all of the necessary information we require to render our view in a uniform way. In short, **#keep_ary** enumerates through the full list of events and skips over any unpopulated collections or any collections lacking a thumbnail.
 
 ### Code Time (HTML/ERB)
 
