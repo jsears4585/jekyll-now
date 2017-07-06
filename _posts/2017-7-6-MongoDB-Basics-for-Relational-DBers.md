@@ -18,3 +18,7 @@ It should first be made clear that NoSQL isn't meant to replace or phase out tra
 ### Major Companies Using MongoDB
 
 ![mongodb companies](http://cdn.jsears.co/mongodb-companies.png "Mongo DB Companies Served")
+
+### But What Does 'Schemaless' Mean, Exactly?
+
+
