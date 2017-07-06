@@ -23,7 +23,7 @@ It should first be made clear that NoSQL isn't meant to replace or phase out tra
 
 ### But What Does 'Schemaless' Mean, Exactly?
 
-Data stored inside of a MongoDB database is represented in JSON-style documents. Each of these documents can have a varying set of fields, with a variety of data types. Instead of relying on unique and foreign key matching, a json-like data structure in MongoDB typically contains all of the data relevant to that particular document. This means fewer complex joins and easier horizontal scaling.
+Data stored inside of a MongoDB database is represented in JSON-style documents. Each of these documents can have a varying set of fields, with a variety of data types. Instead of relying on unique and foreign key matching, a json-like (BSON) data structure in MongoDB typically contains all of the data relevant to that particular document. This means fewer complex joins and easier horizontal scaling.
 
 ![mongo document model](http://cdn.jsears.co/document-model.png "Mongo Document Model")
 
@@ -33,10 +33,12 @@ It's also important to recognize that MongoDB databases make schema migrations e
 
 ### More on the Document Model
 
-![mongo document model details](http://cdn.jsears.co/Document%20Example.png "Mongo Document Model Details")
-
-Text goes here.
-
 ![potential relational setup](http://cdn.jsears.co/db_schema_rel.png "Potential Relational Setup")
 
+Above is an example of a traditional RDBMS setup for a movie application. Below, I've included an example for a single movie document from a NoSQL-type database.
 
+![mongo document model details](http://cdn.jsears.co/Document%20Example.png "Mongo Document Model Details")
+
+You'll notice above that mostly all of the relevant details for the movie "A Good Day to Die Hard" are included in a single document, including mulitple nested objects. This architecture limits the amount of required joins and may very well provide scalability and permformance advantages as well, depending on the particular use case. This design only requires a single read from memory or disk, whereas RDBMS often require multiple reads from multiple locations.
+
+I'll be creating additional MongoDB posts in the future, so please let me know if there's anything I can try to help address. Thanks for reading!
