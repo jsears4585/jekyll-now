@@ -15,4 +15,6 @@ It should first be made clear that NoSQL isn't meant to replace or phase out tra
 * easy to scale (or shard)
 * replication and high-availability
 
+### Major Companies Using MongoDB
+
 ![mongodb companies](http://cdn.jsears.co/mongodb-companies.png "Mongo DB Companies Served")
