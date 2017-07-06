@@ -23,8 +23,10 @@ It should first be made clear that NoSQL isn't meant to replace or phase out tra
 
 ### But What Does 'Schemaless' Mean, Exactly?
 
-Data stored inside of a MongoDB database is represented in JSON-style documents. Each of these documents can have a varying set of fields, with a variety of data types. 
+Data stored inside of a MongoDB database is represented in JSON-style documents. Each of these documents can have a varying set of fields, with a variety of data types. Instead of relying on unique and foreign key matching, a json-like data structure in MongoDB typically contains all of the data relevant to that particular document. This means fewer complex joins and easier horizontal scaling.
 
 ![mongo document model](http://cdn.jsears.co/document-model.png "Mongo Document Model")
+
+In the image above, you'll notice that (in this case) joins are not necessary because all of the relevant information is nested inside one document.
 
 
