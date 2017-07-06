@@ -29,4 +29,4 @@ Data stored inside of a MongoDB database is represented in JSON-style documents.
 
 In the image above, you'll notice that (in this case) joins are not necessary because all of the relevant information is nested inside one document.
 
-
+It's also important to recognize that MongoDB databases make schema migrations easy since there are no migration to write or rollback. In MongoDB, adjustments to the structure of the database are transparent and immediate. A field can be added to a document when necessary, and if that field is requested later on a document that doesn't contain that it, the query will simply return null.
