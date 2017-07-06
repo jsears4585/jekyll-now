@@ -19,9 +19,7 @@ It should first be made clear that NoSQL isn't meant to replace or phase out tra
 
 ### Analogies between NoSQL and traditional RDBMS
 
-<div style="text-align:center">
 ![mongodb-v-relational](http://cdn.jsears.co/mongo-vs-rdbms.png "Mongo v. Relational Keywords")
-</div>
 
 ### But What Does 'Schemaless' Mean, Exactly?
 
