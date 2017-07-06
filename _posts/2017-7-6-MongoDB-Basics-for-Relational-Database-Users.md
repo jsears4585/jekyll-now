@@ -35,4 +35,8 @@ It's also important to recognize that MongoDB databases make schema migrations e
 
 ![mongo document model details](http://cdn.jsears.co/Document%20Example.png "Mongo Document Model Details")
 
+Text goes here.
+
+![potential relational setup](http://cdn.jsears.co/db_schema_rel.png "Potential Relational Setup")
+
 
