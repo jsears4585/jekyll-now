@@ -8,7 +8,11 @@ MongoDB was founded in 2007 by previous members of the DoubleClick team, an inte
 
 It should first be made clear that NoSQL isn't meant to replace or phase out traditional RDBM systems, but to instead add to the functionality companies like Oracle have been helping to develop over the past 40 years. That being said, the way in which NoSQL databases like MongoDB are set up offer some very helpful ways of dealing with data.
 
-* first thing
-* second thing
-* third thing
+* schemaless structure
+* no complex joins
+* structure of a single document is clear (few foreign keys)
+* powerful query language
+* easy to scale (or shard)
+* replication and high-availability
 
+![mongodb companies](http://cdn.jsears.co/mongodb-companies.png "Mongo DB Companies Served")
