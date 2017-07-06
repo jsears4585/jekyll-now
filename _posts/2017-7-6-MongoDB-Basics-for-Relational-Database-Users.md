@@ -19,11 +19,13 @@ It should first be made clear that NoSQL isn't meant to replace or phase out tra
 
 ### Analogies between NoSQL and traditional RDBMS
 
+<div style="text-align:center">
 ![mongodb-v-relational](http://cdn.jsears.co/mongo-vs-rdbms.png "Mongo v. Relational Keywords")
+</div>
 
 ### But What Does 'Schemaless' Mean, Exactly?
 
-Data stored inside of a MongoDB database is represented in JSON-style documents. Each of these documents can have a varying set of fields, with a variety of data types.
+Data stored inside of a MongoDB database is represented in JSON-style documents. Each of these documents can have a varying set of fields, with a variety of data types. 
 
 ![mongo document model](http://cdn.jsears.co/document-model.png "Mongo Document Model")
 
