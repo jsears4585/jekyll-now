@@ -38,7 +38,11 @@ Communication over the internet generally happens in a stateless, ***request-res
 
 As usual, HTTP doesn't allow the server to send you resources without you specifically requesting them.
 
-The WebSocket protocol as an ***upgraded***, TCP connection that allows the client and the server to engage in two-way communication and provides an alternative to repeated polling cycles and their accompanying overhead.
+The WebSocket protocol, once allowed, acts as an ***upgraded***, persistent TCP connection that allows the client and the server to engage in two-way communication and provides an alternative to repeated polling cycles and their accompanying overhead. WebSocket channels aren't just bi-directional (or full-duplex), they're also persisted until either party closes the connection manually or the channel is disconnect.
+
+Also, and this point shouldn't be neglected either, the WebSocket protocol allows you to manage connections from multiple clients and then actively push them information.
+
+Now that's cool.
 
 ![WS Meme 2](http://cdn.jsears.co/ws-meme-2.jpg "WS Meme 2")
 
@@ -68,6 +72,8 @@ Once the server agrees, the WebSocket Protocol becomes enabled and both client a
 
 Although it used to be more of a concern (also security), websockets are now generally very well implemented across client browsers, including mobile.
 
+[Check to see if your browser supports websockets here](http://websocketstest.com/)
+
 ![WS Client Adoption Chart](http://cdn.jsears.co/websocket-adoption-chart.png "WS Client Adoption Chart")
 
 ### Use Cases
@@ -76,6 +82,6 @@ So you might be asking yourself, when might WebSocket protocol benefit me in the
 
 Exactly two sitiations: chatrooms and gaming. ***Drops mic, leaves stage***
 
-
+Seriously though, the opportunities are endless. Next time you see a need for open communications between your application and the client, or need to push information to all connected clients simultaneously, consider trying out a WebSocket protocol implementation.
 
 ![WS Meme](http://cdn.jsears.co/ws-meme.jpg "WS Meme")
