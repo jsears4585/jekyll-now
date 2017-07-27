@@ -1,23 +1,48 @@
 ## Two-way Communication
 
-### What are they?
+### A little history
 
 ```
-The WebSocket Protocol enables two-way communication between a client
-running untrusted code in a controlled environment to a remote host
-that has opted-in to communications from that code.  The security
-model used for this is the origin-based security model commonly used
-by web browsers.  The protocol consists of an opening handshake
-followed by basic message framing, layered over TCP.  The goal of
-this technology is to provide a mechanism for browser-based
-applications that need two-way communication with servers that does
-not rely on opening multiple HTTP connections (e.g., using
-XMLHttpRequest or <iframe>s and long polling).
+Historically, creating web applications that need bidirectional
+communication between a client and a server (e.g., instant messaging
+and gaming applications) has required an abuse of HTTP to poll the
+server for updates while sending upstream notifications as distinct
+HTTP calls [RFC6202].
+
+This results in a variety of problems:
+
+   o  The server is forced to use a number of different underlying TCP
+      connections for each client: one for sending information to the
+      client and a new one for each incoming message.
+
+   o  The wire protocol has a high overhead, with each client-to-server
+      message having an HTTP header.
+
+   o  The client-side script is forced to maintain a mapping from the
+      outgoing connections to the incoming connection to track replies.
+
+A simpler solution would be to use a single TCP connection for
+traffic in both directions.  This is what the WebSocket Protocol
+provides.  Combined with the WebSocket API [WSAPI], it provides an
+alternative to HTTP polling for two-way communication from a web page
+to a remote server.
 ```
+
+Welp, that's it. I hope you've enjoyed my blog post.
+
+![Carlton Fail](http://cdn.jsears.co/carlton.jpg "Carlton")
+
+Hmm, sounds good... Let's upack this a little bit.
+
+Communication over the internet generally happens in a stateless, ***request-response*** manner. When you request a website's information online, you and the server agree (or don't) via a series of handshakes, and then the server (if you've been successfully authorized) sends you the resources you requested with a response of it's own. Each handshake and series of responses and requests is distinct from the other.
+
+As usual, HTTP doesn't allow the server to send you resources without you specifically requesting them.
+
+The WebSocket protocol as an ***upgraded***, TCP connection that allows the client and the server to engage in two-way communication and provides an alternative to repeat polling cycles and their accompanying overhead.
 
 ![WS Meme 2](http://cdn.jsears.co/ws-meme-2.jpg "WS Meme 2")
 
-### How it works
+### Upgrading connections
 
 Straight from the RFC:
 
