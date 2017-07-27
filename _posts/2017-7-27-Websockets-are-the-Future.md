@@ -84,4 +84,11 @@ Exactly two sitiations: chatrooms and gaming. ***Drops mic, leaves stage***
 
 Seriously though, the opportunities are endless. Next time you see a need for open communications between your application and the client, or need to push information to all connected clients simultaneously, consider trying out a WebSocket protocol implementation.
 
+Some other options:
+
+- Live teaching
+- Co-drawing or co-writing
+- Email clients
+- Any other multi-user, realtime applications
+
 ![WS Meme](http://cdn.jsears.co/ws-meme.jpg "WS Meme")
