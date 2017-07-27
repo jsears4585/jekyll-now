@@ -30,7 +30,7 @@ to a remote server.
 
 Welp, that's it. I hope you've enjoyed my blog post.
 
-![Carlton Fail](http://cdn.jsears.co/carlton.jpg "Carlton")
+![Carlton Fail](http://cdn.jsears.co/carlton.gif "Carlton")
 
 Hmm, sounds good... Let's upack this a little bit.
 
@@ -68,6 +68,8 @@ Once the server agrees, the WebSocket Protocol becomes enabled and both client a
 
 ![WS Client Adoption Chart](http://cdn.jsears.co/websocket-adoption-chart.png "WS Client Adoption Chart")
 
-### End
+### Use Cases
+
+
 
 ![WS Meme](http://cdn.jsears.co/ws-meme.jpg "WS Meme")
