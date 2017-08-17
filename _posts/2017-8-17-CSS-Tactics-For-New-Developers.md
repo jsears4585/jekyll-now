@@ -46,6 +46,8 @@ External sheet
 
 In short, the highest priority declarations have the most power.
 
+![CSS Cascade Order](http://cdn.jsears.co/css-cascade.gif "CSS Cascade Order")
+
 The first sheet (i.e. the first one included in your HTML file) sets the stage for all of the CSS rules that occur after it, but it will be overwritten if new rules come into play later in the file. By this logic, inline styling hold the highest priority declaration and will generally overwrite rules that have come earlier in the CSS pipeline.
 
 5. Overwriting with !important
