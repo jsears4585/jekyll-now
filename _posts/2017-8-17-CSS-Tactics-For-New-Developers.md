@@ -70,7 +70,7 @@ Media queries are used to create unique CSS layouts and styling for different co
 
 There are a variety of units you can use to declare the sizes of elements on your webpage. Some are absolute and others are relative.
 
-![CSS Units](http://cdn.jsears.co/css-units.jpeg "CSS Units")
+<img alt="CSS Units" src="http://cdn.jsears.co/css-units.png" width="500px" />
 
 ### 8. Positioning
 
