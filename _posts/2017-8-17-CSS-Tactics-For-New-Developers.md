@@ -50,20 +50,20 @@ In short, the highest priority declarations have the most power.
 
 The first sheet (i.e. the first one included in your HTML file) sets the stage for all of the CSS rules that occur after it, but it will be overwritten if new rules come into play later in the file. By this logic, inline styling hold the highest priority declaration and will generally overwrite rules that have come earlier in the CSS pipeline.
 
-5. Overwriting with !important
+### 4. Overwriting with !important
 
 A rule that has the **!important** property will always be applied no matter where that rule appears in the CSS document. This comes in very handy when you're using a framework that's already declared a wide breadth of rules that apply to many of the elements on a website. Make sure you only use this when necessary (and take particular cautious if you're working on a team), as the !important flag will prevent the applied style from being overwritten in the future.
 
-6. Background sizing
+### 5. Background sizing
 
-7. Media queries
+### 6. Media queries
 
 ![Media Query Look](http://cdn.jsears.co/media-query-css.png "Media Query Look")
 
 ![Media Query Declaration](http://cdn.jsears.co/media-query-declaration.png "Media Query Declaration")
 
-8. CSS units (fluid vs. static)
+### 7. CSS units (fluid vs. static)
 
-9. Positioning
+### 8. Positioning
 
-10. Next steps
+### 9. Next steps
