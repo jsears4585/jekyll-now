@@ -56,7 +56,7 @@ A rule that has the **!important** property will always be applied no matter whe
 
 ### 5. Z-index
 
-
+![Z-index](http://cdn.jsears.co/z-index.png "Z-index")
 
 ### 6. Media queries
 
