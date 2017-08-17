@@ -46,7 +46,7 @@ External sheet
 
 In short, the highest priority declarations have the most power.
 
-<img alt="CSS Cascade Order" src="http://cdn.jsears.co/css-cascade.gif" width="300px" />
+<img alt="CSS Cascade Order" src="http://cdn.jsears.co/css-cascade.gif" width="600px" />
 
 The first sheet (i.e. the first one included in your HTML file) sets the stage for all of the CSS rules that occur after it, but it will be overwritten if new rules come into play later in the file. By this logic, inline styling hold the highest priority declaration and will generally overwrite rules that have come earlier in the CSS pipeline.
 
@@ -62,9 +62,9 @@ A rule that has the **!important** property will always be applied no matter whe
 
 Media queries are used to create unique CSS layouts and styling for different consumer devices. By using media queries, you can re-define how your website or web applications looks on a desktop, a tablet, or a phone, and thereby increase the user experience for a variety of consumer devices.
 
-![Media Query Look](http://cdn.jsears.co/media-query-css.png "Media Query Look")
+<img alt="Media Query Look" src="http://cdn.jsears.co/media-query-css.png" width="600px" />
 
-![Media Query Declaration](http://cdn.jsears.co/media-query-declaration.png "Media Query Declaration")
+<img alt="Media Query Declaration" src="http://cdn.jsears.co/media-query-declaration.png" width="500px" />
 
 ### 7. CSS units (fluid vs. static)
 
