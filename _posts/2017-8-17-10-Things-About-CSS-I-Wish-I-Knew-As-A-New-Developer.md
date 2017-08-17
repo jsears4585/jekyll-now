@@ -92,4 +92,6 @@ Use them all the time. Simply 'inspect element' on any webpage (or your webpage,
 
 The above barely scratches the surface on CSS in its entirety. I didn't touch on font selection or manipulation, color theory, or best practices of any sort.
 
-I would suggest, if you're new to styling web applications, to begin by using a CSS framework like Bootstrap, Semantic UI or Materialize to get a bearing on how CSS flows. From there, I would suggest maniupulating your chosen framework's CSS with your own styling (likely making use of the !important flag) and taking it where you can from there: you can add your own CSS stylesheets as you become more familiar with popular properties and effects.
+I would suggest, if you're new to styling web applications, to begin by using a CSS framework like Bootstrap, Semantic UI or Materialize to get a bearing on how CSS flows. From there, I would suggest manipulating your chosen framework's CSS with your own styling (likely making use of the !important flag) and taking it where you can from there.
+
+You will learn the most by simply exploring, using your dev tools, and continuing to style.
