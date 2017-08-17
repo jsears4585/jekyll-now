@@ -6,6 +6,8 @@ Here are 10 good things to know when starting your CSS journey.
 
 The box model is the foundation for how layout is determined on the web. Each element on the page is a virtual rectangle with radiating layers of padding, border, and margin (and in that order).
 
+![Box-model](https://http://cdn.jsears.co/box-model.png "Box-model")
+
 There are three main types of CSS boxes, which can be accessed with the 'display' attribute in CSS. These are:
   
   - 'Block': A box that stacks on other boxes. Example: standard 'div'
@@ -48,9 +50,11 @@ The first sheet (i.e. the first one included in your HTML file) sets the stage f
 
 4. Overwriting with !important
 
-
+A rule that has the **!important** property will always be applied no matter where that rule appears in the CSS document. This comes in very handy when you're using a framework that's already declared a wide breadth of rules that apply to many of the elements on a website. Make sure you only use this when necessary (and take particular cautious if you're working on a team), as the !important flag will prevent the applied style from being overwritten in the future.
 
 5. Background sizing
+
+
 
 6. Media queries
 
