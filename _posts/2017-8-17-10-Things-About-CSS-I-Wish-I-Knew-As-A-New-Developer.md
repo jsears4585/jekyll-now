@@ -1,6 +1,6 @@
 ## So you want to style your website
 
-Here are 10 good things to know when starting your CSS journey.
+Here are 10 good things to know (or, more realistically, simply be aware of) when starting your CSS journey. Included below are some common gotchas and some less-common but good-to-know tactics and approaches that might help to curb your manic CSS-related Stack Overflowing.
 
 ### 0. The CSS Box Model
 
