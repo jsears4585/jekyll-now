@@ -82,7 +82,7 @@ There are two major types of positioning (which can be accessed with the 'positi
 
 For these 'position' properties to work, like with 'z-index', both elements in question need to have defined 'position' properties.
 
-![CSS Position](http://cdn.jsears.co/css-position.png "CSS Position")
+<img alt="CSS Position" src="http://cdn.jsears.co/css-position.png" width="500px" />
 
 ### 9. Next steps
 
