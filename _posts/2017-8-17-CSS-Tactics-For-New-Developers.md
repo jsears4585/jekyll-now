@@ -2,7 +2,7 @@
 
 Here are 10 good things to know when starting your CSS journey.
 
-1. The CSS Box Model
+(1) The CSS Box Model
 
 The box model is the foundation for how layout is determined on the web. Each element on the page is a virtual rectangle with radiating layers of padding, border, and margin (and in that order).
 
@@ -14,15 +14,13 @@ There are three main types of CSS boxes, which can be accessed with the 'display
   - 'Inline': A box that flows with the elements text, and 'width' and 'height' attributes aren't considered. Example: standard 'p' tags or span tags
   - 'Inline-block': A combination of the previous two, 'inline-block' acts like an inline element with 'width' and 'height' attributes
 
-{:start="2"}
-2. ID vs. Class
+(2) ID vs. Class
 
 **ID**s should be used for very specific, one-off elements. Example: a special submit button that needs a special styling.
 
 **Class**es should be used for repeated styling across the application. Example: styling used throughout the website in different cases, like a font style you'd like to mix-and-match with various headers.
 
-{:start="3"}
-3. Including references to other stylesheets
+(3) Including references to other stylesheets
 
 Internal sheet
 
