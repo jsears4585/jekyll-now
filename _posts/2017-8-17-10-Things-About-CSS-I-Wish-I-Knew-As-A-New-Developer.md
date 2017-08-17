@@ -16,9 +16,9 @@ There are three main types of CSS boxes, which can be accessed with the 'display
 
 ### 1. ID vs. Class
 
-**ID**s should be used for very specific, one-off elements. Example: a special submit button that needs a special styling.
+**ID**s should be used for very specific, one-off elements. IDs start with a **#** in CSS and will correspond to an 'id' attribute within a given element in your HTML. Example: a special submit button that needs a special styling.
 
-**Class**es should be used for repeated styling across the application. Example: styling used throughout the website in different cases, like a font style you'd like to mix-and-match with various headers.
+**Class**es should be used for repeated styling across the application. Classess start with a **.** in CSS and will correspond to 'class' attributes within HTML elements. Example: styling used throughout the website, like a font style you'd like to mix-and-match with various headers.
 
 ### 2. Including references to other stylesheets
 
@@ -84,7 +84,11 @@ For these 'position' properties to work, like with 'z-index', both elements in q
 
 <img alt="CSS Position" src="http://cdn.jsears.co/css-position.png" width="500px" />
 
-### 9. Next steps
+### 9. Use your developer tools
+
+Use them all the time. Simply 'inspect element' on any webpage (or your webpage, if you're developing it) and start manipulating the values of any CSS properties you'd like. This is far and away the best tool available to become acquainted with how CSS functions. When in doubt, inspect your HTML and CSS and see what's afoot.
+
+### Next steps
 
 The above barely scratches the surface on CSS in its entirety. I didn't touch on font selection or manipulation, color theory, or best practices of any sort.
 
