@@ -56,9 +56,11 @@ A rule that has the **!important** property will always be applied no matter whe
 
 6. Background sizing
 
-
-
 7. Media queries
+
+![Media Query Look](http://cdn.jsears.co/media-query-css.png "Media Query Look")
+
+![Media Query Declaration](http://cdn.jsears.co/media-query-declaration.png "Media Query Declaration")
 
 8. CSS units (fluid vs. static)
 
