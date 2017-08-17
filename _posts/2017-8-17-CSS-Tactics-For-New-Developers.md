@@ -6,7 +6,7 @@ Here are 10 good things to know when starting your CSS journey.
 
 The box model is the foundation for how layout is determined on the web. Each element on the page is a virtual rectangle with radiating layers of padding, border, and margin (and in that order).
 
-[Box-model](https://http://cdn.jsears.co/box-model.png "Box-model")
+[Box-model](http://cdn.jsears.co/box-model.png "Box-model")
 
 There are three main types of CSS boxes, which can be accessed with the 'display' attribute in CSS. These are:
   
