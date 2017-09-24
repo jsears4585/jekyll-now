@@ -2,48 +2,48 @@
 
 Pseudo classes are, quite simply, additional keywords that are tacked on to the end of certain selectors. They provide additional functionality, like ':hover' to create separate styling on hover events, and many many more. Pseudo selectors use the : syntax. Additional pseudo selectors include:
 
-:active
-:any 🔬
-:any-link 🔬
-:checked
-:default
-:dir() 🔬
-:disabled
-:empty
-:enabled
-:first
-:first-child
-:first-of-type
-:fullscreen 🔬
-:focus
-:focus-within
-:hover
-:indeterminate
-:in-range
-:invalid
-:lang
-:last-child
-:last-of-type
-:left
-:link
-:not()
-:nth-child
-:nth-last-child
-:nth-last-of-type
-:nth-of-type
-:only-child
-:only-of-type
-:optional
-:out-of-range
-:placeholder-shown 🔬
-:read-only
-:read-write
-:required
-:right
-:root
-:scope 🔬
-:target
-:valid
+:active<br>
+:any 🔬<br>
+:any-link 🔬<br>
+:checked<br>
+:default<br>
+:dir() 🔬<br>
+:disabled<br>
+:empty<br>
+:enabled<br>
+:first<br>
+:first-child<br>
+:first-of-type<br>
+:fullscreen 🔬<br>
+:focus<br>
+:focus-within<br>
+:hover<br>
+:indeterminate<br>
+:in-range<br>
+:invalid<br>
+:lang<br>
+:last-child<br>
+:last-of-type<br>
+:left<br>
+:link<br>
+:not()<br>
+:nth-child<br>
+:nth-last-child<br>
+:nth-last-of-type<br>
+:nth-of-type<br>
+:only-child<br>
+:only-of-type<br>
+:optional<br>
+:out-of-range<br>
+:placeholder-shown 🔬<br>
+:read-only<br>
+:read-write<br>
+:required<br>
+:right<br>
+:root<br>
+:scope 🔬<br>
+:target<br>
+:valid<br>
 :visited
 
 - Experimental @ time of writing 🔬
@@ -52,10 +52,10 @@ Pseudo classes are, quite simply, additional keywords that are tacked on to the 
 
 Pseudo elements are different from pseudo selectors in that they are used to style particular parts of an element and utilize the :: syntax. Some more popular and well-adopted pseudo-elements are:
 
-::after (:after)
-::backdrop
-::before (:before)
-::first-letter (:first-letter)
-::first-line (:first-line)
-::selection
+::after (:after)<br>
+::backdrop<br>
+::before (:before)<br>
+::first-letter (:first-letter)<br>
+::first-line (:first-line)<br>
+::selection<br>
 ::cue (:cue)
